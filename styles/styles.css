@@ -38,6 +38,7 @@ aside {
     border: 1px solid steelblue;
     background-color:white ;
     color:black;
+    position: relative;
 }
 aside img{
     width:200px;
@@ -49,7 +50,8 @@ margin-top: 20px;
 border-top: 5px solid steelblue;
 
 }
-/* class selector */
+
+/* class selectors */
 .box{
     margin:1rem;
     padding:1rem;
@@ -58,6 +60,6 @@ border-top: 5px solid steelblue;
 }
 aside h2{
     position:absolute;
-    top: 28em;
-    left:4em;
+    top: 40px;;
+    left:80px;
 }
