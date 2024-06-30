@@ -33,8 +33,8 @@ main{
 }
 aside {
     width:40rem;
-    padding: 10px;;
-    margin: 5px;;
+    padding: 10px;
+    margin: 5px;
     border: 1px solid steelblue;
     background-color:white ;
     color:black;
@@ -61,6 +61,6 @@ border-top: 5px solid steelblue;
 }
 aside h2{
     position:absolute;
-    top: 40px;;
+    top: 40px;
     left:80px;
 }
