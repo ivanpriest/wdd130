@@ -1,3 +1,10 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
 nav{
     background-color:steelblue;
     padding:10px;
@@ -16,6 +23,7 @@ main img{
     border:1px solid steelblue;
     padding:2px;
     box-shadow:0 0 30px gray;
+    float:right;
 }
 p{
     padding:0px;
@@ -40,4 +48,16 @@ text-align: center;
 margin-top: 20px;
 border-top: 5px solid steelblue;
 
+}
+/* class selector */
+.box{
+    margin:1rem;
+    padding:1rem;
+    border:1px solid lightsteelblue (0,0,0,.1);
+    background-color:lightsteelblue;
+}
+aside h2{
+    position:absolute;
+    top: 28em;
+    left:4em;
 }
