@@ -56,7 +56,7 @@ border-top: 5px solid steelblue;
 .box{
     margin:1rem;
     padding:1rem;
-    border:1px solid lightsteelblue (0,0,0,.1);
+    border:1px solid lightsteelblue;
     background-color:lightsteelblue;
 }
 aside h2{
