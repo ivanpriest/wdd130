@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+:root {
+    --primary-color:#344E41;
+    --secondary-color: #3A5A40;
+    --accent1-color: #588157;
+    --accent2-color: #A3B184;
+      
+    --heading-font: 'zilla slab', serif;
+    --paragraph-font: 'Playfair Display', serif;
+      
+    --nav-background-color: #A3B18A;
+    --nav-link-color: #344E41;
+    --nav-hover-link-color: #DAD7CD;
+    --nav-hover-background-color:#588157;
+      
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family:var(--heading-font);
+    color:var(--primary-color)
+}
+body{
+    width: 70%;
+
+}
+a:link{
+    decoration:none;
+
+}
+
+a:visited {
+    
+
+}
+.hero {
+position :relative;
+display:inline-block;
+
+}
+.hero img{
+    display:block;
+    width:100%;
+    height:auto;
+}
+div {
+    position:relative ;
+}
+
+
+article img{
+    float:right;
+}
+.overlay-text
+{
+    position:absolute;
+    top:30px;
+    text-align: center;
+
+
+}
