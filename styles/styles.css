@@ -1,10 +1,15 @@
+:root{
+    --nav-background-and-h1-color:darkblue;
+    --color-black: black;
+}
+
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
 }
 nav{
-    background-color: darkblue;
+    background-color: var(--nav-background-and-h1-color);
     padding :10px;
 }
 
@@ -14,12 +19,12 @@ nav a {
     padding:30px;
 }
 h1{
-    color:darkblue;
+    color:var(--nav-background-and-h1-color);
 }
 img{
     width:150px;
     height: auto;
-    border:1px solid black;
+    border:1px solid var(--color-black);
     padding:2px;
     box-shadow: 0 0 30px gray;
 }
@@ -52,7 +57,7 @@ p{
 }
 footer{
     margin-top: 15px;
-    border-top: 1px solid #000;
+    border-top: 1px solid var(--color-black);
     text-align: center;
 }
 /* Class Selectors */
@@ -60,7 +65,7 @@ footer{
 .box{
     margin:1rem;
     padding:1rem;
-    border: 1px solid black;
+    border: 1px solid var(--color-black);
     background-color:lightskyblue;
-    color:#000;
+    color:var(--color-black);
 }
