@@ -146,6 +146,8 @@ Section img {
     max-width: 90%;
     height: auto;
 }
-
+figcaption{
+    text-align: center;
+}
 
 
