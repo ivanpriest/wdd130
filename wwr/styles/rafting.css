@@ -35,6 +35,7 @@ footer nav{
 
 footer nav a{
     text-decoration:none;
+    font-family: var(--text-font);
 }
 .hero img {
     display: block;
@@ -64,6 +65,8 @@ footer nav a img{
     left: 100px;
     background-color: #cae5ff;
     opacity:70%;
+    border-radius:5px;
+    padding:5px;
 }
 .hero article p{
     color:var(--accent2-color);
@@ -149,5 +152,128 @@ Section img {
 figcaption{
     text-align: center;
 }
+section h2{
+    text-align: center;
+}
+.contact-main-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "sub1 sub2";
 
+}
+.contact-sub1{
+    grid-area:sub1;
+}
+.contact-sub2{
+    grid-area:sub2;
+    justify-self: stretch; 
+}
+.contact-sub2 label,input[type="text"],input[type="email"]{
+    display:block;
+}
+
+.contact-sub2 input[type="radio"]{
+    width:auto;
+    height:2em;
+    margin:10px;
+
+}
+.radio-item{
+    display:flex;
+    align-items: center;
+}
+fieldset{
+    margin:20px;
+}
+.sub-item{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: 
+    "image para";
+    justify-items: start;
+    margin-bottom:10px;
+}
+.sub-item img{
+    width:40px;
+    height:auto;
+    grid-area: image;
+    justify-self:end ;
+    padding-left: 200px;
+}
+.sub-item p{
+    grid-area: para;
+    justify-self:start;
+    text-align: left;
+    padding-left: 0;
+}
+.contact-sub1 .map{
+    justify-self: center;
+    padding-bottom:100px;
+    border-radius: 10px;
+}
+iframe{
+    border-radius: 5px;
+    width:500px;
+    height:auto;
+    margin-top: 30px;
+}
+form{
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:repeat (2, auto);
+    color:var(--accent1-color);
+    font-family: var(--text-font);
+}
+fieldset{
+    align-self: start;
+    width:500px
+}
+
+.radio-item1 {
+    display: block;
+    height:150px;
+    margin-top: 20px;
+}
+.radio-item1 textarea{
+    width:400px;
+    height:60px;
+}
+button{
+    text-align: center;
+    width: 500px;
+    height:50px;
+    justify-self: center;
+    color:white;
+    background-color:rgb(62, 136, 170);
+}
+.prof-container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas:"img1 img2 img3";
+}
+.prof-item1{
+    grid-area: img1;
+    justify-self: center;
+   
+}
+.prof-item2{
+    grid-area: img2;
+    justify-self: center;
+}
+.prof-item3{
+    grid-area: img3;
+    justify-self: center;
+}
+.prof-item1 img ,.prof-item2 img,.prof-item3 img{
+    width:250px;
+    height:auto;
+    border-radius: 5px;
+}
+figcaption{
+    color:var(--accent1-color);
+    font-family: var(--text-font);
+}
 
