@@ -1,30 +1,41 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    border: 1px solid black;
+}
+
 .callout {
-    max-width: 550px;
-    margin: 100px auto;
-    padding: 5px;
-    border: 0;
+    width: 500px;
+    margin: 0 auto;
     background-color: steelblue;
-    color: white;
+    padding: 10px;
 }
 
 .callout img {
     float: right;
-    margin: 5px;
-    padding: 2px;
-    background-color: grey;
-    border: 1px solid black;
     width: 100px;
     height: auto;
+    box-shadow: 13px 3px 35px 5px rgba(255, 255, 255, 0.5);
+    border: 1px solid white;
+    padding: 2px;
+    background-color: antiquewhite;
 }
 
 blockquote {
-    margin: 5px;
+    clear: left;
+    color: white;
+    margin: 0 auto;
 }
 
 cite {
     display: block;
-    border-top: 1px dotted whitesmoke;
+    color: white;
+    width: 90%;
+    border-top: 1px dotted white;
     text-align: end;
-    padding-top: 2px;
-    font-size: 15px;
+    margin: 0 auto;
+    padding: 2px;
+
 }
